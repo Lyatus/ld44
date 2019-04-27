@@ -156,7 +156,7 @@
     "    ]);",
     "  }",
     "  attack(hp) {",
-    "    if(this.dist_to_other() < 16) {",
+    "    if(this.dist_to_other() < 14) {",
     "      const other = this.other_fighter();",
     "      if(this.crouched != other.crouched || !other.blocking) {",
     "        other.health -= hp;",
