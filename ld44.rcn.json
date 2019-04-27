@@ -12,6 +12,7 @@
     "const fighter_max_x = 160 - fighter_min_x;",
     "",
     "function init() {",
+    "  palt(0, true);",
     "  startmenu_init();",
     "}",
     "",
