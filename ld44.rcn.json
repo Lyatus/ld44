@@ -248,6 +248,18 @@
     "  // Draw health bars",
     "  rectfill(1, 1, fighters[0].health, 2, 1);",
     "  rectfill(127 - fighters[1].health, 1, fighters[1].health, 2, 1);",
+    "}",
+    "",
+    "// VFX functions ///////////////////////////////////////////",
+    "",
+    "function vfx_reset() {",
+    "  ",
+    "}",
+    "function vfx_update() {",
+    "",
+    "}",
+    "function vfx_draw() {",
+    "",
     "}"
   ],
   "rom": {
