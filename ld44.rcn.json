@@ -238,7 +238,7 @@
     "  cam(cam_x, 0);",
     "  ",
     "  // Draw foreground",
-    "  map(0, 10, 0, 80, 20, 10);",
+    "  map(0, 10, 0, 48, 20, 10);",
     "  ",
     "  // Draw fighters",
     "  fighters.forEach(function(fighter) {",
