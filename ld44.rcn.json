@@ -77,7 +77,7 @@
     "        this.spr = (this.crouched ? 32 : 2) + (this.frame % 16) / 4;",
     "      } else { // Idle",
     "        if(this.crouched) { // Crouched idle",
-    "          this.spr = 0;",
+    "          this.spr = 32;",
     "        } else { // Standing idle",
     "          this.spr = (this.frame % 16) < 8;",
     "        }",
