@@ -301,7 +301,7 @@
     "  });",
     "  vfx_draw();",
     "  ",
-    "  cam(0, 0); // Reset cam for clouds UI",
+    "  cam(0, 0); // Reset cam for UI",
     "",
     "  // Draw health bar backgrounds",
     "  rectfill(1, 1, max_health, 2, 0);",
