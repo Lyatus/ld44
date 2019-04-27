@@ -51,7 +51,7 @@
     "    ",
     "    if(this.moving) {",
     "      // Walk cycle",
-    "      this.spr = 2;",
+    "      this.spr = 2 + (this.frame % 16) / 4;",
     "    } else {",
     "      // Idle",
     "      this.spr = (this.frame % 16) < 8;",
