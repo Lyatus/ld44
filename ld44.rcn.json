@@ -251,8 +251,6 @@
     "    const spr2 = this.crouched ? 15 : 13;",
     "    const vfx_spr1 = this.crouched ? 46 : 44;",
     "    const vfx_spr2 = this.crouched ? 47 : 45;",
-    "    const vfx_x = this.x + 4;",
-    "    const vfx_y = this.y - 16;",
     "    const fighter = this;",
     "    this.start_anim([",
     "      {spr: spr1, frame: 0},",
