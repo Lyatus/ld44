@@ -114,7 +114,7 @@
     "    return fighters[1 - this.index];",
     "  }",
     "  start_anim(anim) {",
-    "    this.blocking = false; // ???",
+    "    this.blocking = false; // Cannot block during animations",
     "    this.anim = anim.reverse();",
     "    this.anim_start = this.frame;",
     "  }",
