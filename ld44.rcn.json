@@ -15,6 +15,7 @@
     "function init() {",
     "  palt(0, true);",
     "  startmenu_init();",
+    "  mus(0);",
     "}",
     "",
     "// Start menu functions /////////////////////////////////////////",
