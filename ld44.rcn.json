@@ -545,7 +545,7 @@
     "        this.attack_mode = true;",
     "      }",
     "      ",
-    "      this.next_item = this.frame + rnd(80);",
+    "      this.next_item = this.frame + rnd(100);",
     "    }",
     "    ",
     "    this.dx = sign(this.vdx);",
