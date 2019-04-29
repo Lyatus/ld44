@@ -656,7 +656,7 @@
     "    }",
     "    ",
     "    let msg = winner + ' WINS!';",
-    "    let msg_x = 64 - winner.length * 3.25;",
+    "    let msg_x = 64 - winner.length * 3.32;",
     "    rectfill(64 - 38, 64 - 16, 38 * 2, 16, 5);",
     "    print(msg_x, 64 - 10, msg, 1);",
     "  ",
