@@ -180,7 +180,7 @@
     "  { // Speed up",
     "    cost: 15,",
     "    spr: 64,",
-    "    duration: 66,",
+    "    duration: 33,",
     "    start: function() {",
     "      this.speed_factor *= 2;",
     "    },",
