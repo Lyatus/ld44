@@ -1,5 +1,5 @@
 {
-  "name": "ld443",
+  "name": "ld44",
   "version": 2,
   "code": [
     "const ground_y = 96;",
@@ -254,7 +254,7 @@
     "    // Update items",
     "    const fighter = this;",
     "    this.items = this.items.filter(function(item) {",
-    "      if(item.end_frame == fighter.frame) {",
+    "      if(item.end_frame <= fighter.frame) {",
     "        item.def.end.apply(fighter);",
     "        return false;",
     "      }",
