@@ -103,7 +103,7 @@
     "    ui_validate_sfx();",
     "    p1_ready = true;",
     "  }",
-    "  if(btnp(4, 1)) {",
+    "  if(!p2_computer && btnp(4, 1)) {",
     "    ui_validate_sfx();",
     "    p2_ready = true;",
     "  }",
